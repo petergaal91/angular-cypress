@@ -1,0 +1,17 @@
+{
+    "private": true,
+    "name": "test",
+    "workspaces": [
+        "packages/*",
+        "libs/*"
+    ],
+    "scripts": {
+        "dev:client": "yarn workspace @scope/client start",
+        "dev:admin": "yarn workspace @scope/admin start",
+        "cy:client": "yarn workspace @scope/client cypress",
+        "cy:admin": "yarn workspace @scope/admin cypress"
+    },
+    "devDependencies": {
+        "lerna": "^6.5.1"
+    }
+}

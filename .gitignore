@@ -1,0 +1,36 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+node_modules/
+.angular/
+__diff_output__/
+coverage/
+dist/
+out-tsc/
+reports/
+
+# Log files
+lerna-*.log*
+npm-*.log*
+yarn-*.log*
+*.log
+
+# Editor directories and files
+.DS_Store
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Other
+/tmp
+*.proxy.conf.json
